@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UITestApplication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="screen1_label_text">Enter a value to be doubled</string>
+    <string name="submitBtn">Submit</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="label_number_to_be_divided">Enter a number to be divided</string>
+    <string name="integer_max_range_error">Sorry! That is out of range</string>
+</resources>

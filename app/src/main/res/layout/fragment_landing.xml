@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uitestapp.com.uitestapplication.Screen1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/childLayoutPadding">
+
+        <TextView
+            android:id="@+id/screen1_number_label"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="wrap_content"
+            android:text="@string/screen1_label_text" />
+
+        <EditText
+            android:id="@+id/screen1_number_input"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/screen1_number_label"
+            android:hint="@string/enter_a_number"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/screen1_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/screen1_number_input"
+            android:layout_alignRight="@+id/screen1_number_input"
+            android:layout_below="@+id/screen1_number_input"
+            android:layout_marginEnd="@dimen/btn_margin"
+            android:layout_marginRight="@dimen/btn_margin"
+            android:text="@string/submitBtn"
+            android:layout_marginTop="@dimen/btn_margin_top" />
+    </RelativeLayout>
+</FrameLayout>
